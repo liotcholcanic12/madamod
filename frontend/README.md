@@ -1,5 +1,16 @@
 # React + TypeScript + Vite
 
+## Environment setup
+
+Copy `.env.example` to `.env` and update the backend URL if needed:
+
+```bash
+cp .env.example .env
+```
+
+Set `VITE_API_BASE_URL` to the reachable backend URL (for example, a Codespaces
+URL) so the frontend can load classes and students.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
